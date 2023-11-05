@@ -21,9 +21,17 @@
     "tailwindcss/no-contradicting-classname": "error",
 
     // Other common rules
-    "react/prop-types": "off",
-    "no-unused-vars": "off"
+    "react/prop-types": "off", // Not needed with TypeScript
+    "no-unused-vars": "off", // Not needed with TypeScript
+    "react/react-in-jsx-scope": "off", // Not needed with Next.js
+    "react/no-unescaped-entities": "error", // Prevent unescaped HTML entities
+
+    // Prettier rules
+    "prettier/prettier": "error"
 
     // Add any custom rules or overrides here
+  },
+  "settings": {
+    "tailwindcss/generate": "stylelint-config"
   }
 }
