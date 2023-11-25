@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import * as React from 'react';
 
 const Home: NextPage = () => {
   const greeting: string = "Welcome to Movies now habibi";
